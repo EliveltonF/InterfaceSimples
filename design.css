@@ -142,5 +142,104 @@ body {
 }
 
 @media only screen and (max-device-width: 890px) {
+    #parteEsquerdaUm {
+        text-align: center;
+        line-height: 0.8;
+    }
+    #tituloRoxo{
+        color: hsl(300, 43%, 22%);
+    }
+    #parteEsquerdaDois {
+        text-align: center;
+    }
+    #paragrafo {
+        color: hsla(300, 43%, 22%, 0.596);
+    }
+    #parteDireita {
+        justify-content: center;
+    }
+    #icon {
+        margin-top: 15px;
+        margin-left: 35px;
+        background-image: url("images/icon-star.svg");
+        background-repeat: no-repeat;
+        background-position: bottom ;
+        height: 18px;
+        width: 85px;
+    }
+    #icon1 {
+        margin-left: 0px;
+        background-image: url("images/icon-star.svg");
+        background-repeat: no-repeat;
+    }
+
+    .caixaEstrela {
+        border-radius: 5px;
+        text-align: center;
+        background-color: hsla(300, 43%, 22%, 0.082);
+    }
     
+    .estrela {
+        color: hsl(300, 43%, 22%);
+    }
+
+
+    .caixaRoxa {
+        margin-bottom: 10px;
+        min-width: 120px;
+        min-height: 220px;
+        border-radius: 10px;
+        background-color: hsl(300, 43%, 22%);
+    }
+    .icone {
+        margin-top: 35px;
+        margin-left: 20px;
+        width: 45px;
+        border-radius: 50px;
+    }
+    #nomeUm {
+        margin-top: -47px;
+        margin-left: 80px;
+        color:white;
+    }
+    #infoUm {
+        margin-top: -10px;
+        margin-left: 80px;
+        color: hsl(333, 80%, 67%);
+    }
+    #descUm {
+        
+        text-align: center;
+        color: white;
+    }
+    #nomeDois {
+        margin-top: -47px;
+        margin-left: 80px;
+        color:white;
+    }
+    #infoDois {
+        margin-top: -10px;
+        margin-left: 80px;
+        color: hsl(333, 80%, 67%);
+    }
+    #descDois {
+        
+        text-align: center;
+        color: white;
+    }
+    #nomeDois {
+        margin-top: -47px;
+        margin-left: 80px;
+        color:white;
+    }
+    #infoTres {
+        margin-top: -10px;
+        margin-left: 80px;
+        color: hsl(333, 80%, 67%);
+    }
+    #descTres {
+        
+        text-align: center;
+        color: white;
+    }
 }
