@@ -1,0 +1,146 @@
+body {
+    background-image: url("images/bg-pattern-top-desktop.svg"),url("images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat,no-repeat;
+    background-position-y: top,bottom;
+}
+@media only screen and (min-device-width: 900px) {
+#main {
+    margin: 80px;
+}
+#parteEsquerdaUm {
+    margin-left: 10px;
+    width: 300px;
+}
+#parteEsquerdaDois {
+    margin-left: 10px;
+    width: 500px;
+}
+#tituloRoxo {
+    font-size: 40px;
+    color: hsl(300, 43%, 22%);
+}
+#paragrafo {
+    text-align: justify;
+    font-size: 20px;
+    color: grey;
+}
+#icon {
+    margin-left: 30px;
+    margin-right: 2px;
+    margin-top: 15px;
+    background-image: url("images/icon-star.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 20px;
+}
+.icon {
+    margin-left: 5px;
+    margin-right: 2px;
+    margin-top: 15px;
+    background-image: url("images/icon-star.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 20px;
+}
+#idEstrela {
+    margin-left: 40px;
+}
+#idEstrelaUm {
+    margin-left: 80px;
+}
+.estrela {
+    color: hsl(300, 43%, 22%);
+    font-weight: 800;
+    margin-left: 20px;;
+}
+#parteDireita {
+    margin-top: -230px;
+    margin-left: 600px;
+    margin-bottom: 100px
+}
+.caixaEstrela {
+    margin-top: 15px;
+    width: 450px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.137);
+}
+
+#parteBaixo {
+    display: flex;
+}
+.icone {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 50px;
+    border-radius: 50px;
+}
+.caixaRoxa {
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 22px;
+    border-radius: 10px;
+    width: 350px;
+    height: 220px;
+}
+
+#caixaUm {
+    background-color: rgb(77, 0, 77);
+}
+#nomeUm {
+    margin-top: -50px;
+    margin-left: 110px;
+    color: white;
+}
+#infoUm {
+    margin-top: -10px;
+    margin-left: 110px;
+    color: hsl(333, 80%, 67%);
+}
+#descUm {
+    margin: 30px;
+    color: white;
+}
+#caixaDois {
+    margin-top: 25px;
+    background-color: rgb(77, 0, 77);
+}
+#nomeDois {
+    margin-top: -50px;
+    margin-left: 110px;
+    color: white;
+}
+#infoDois {
+    margin-top: -10px;
+    margin-left: 110px;
+    color: hsl(333, 80%, 67%);
+}
+#descDois {
+    margin: 30px;
+    color: hsl(300, 24%, 96%);
+}
+#caixaTres {
+    margin-top: 40px;
+    background-color: rgb(77, 0, 77);
+}
+#nomeTres {
+    margin-top: -50px;
+    margin-left: 110px;
+    color: hsl(300, 24%, 96%);
+}
+#infoTres {
+    margin-top: -10px;
+    margin-left: 110px;
+    color: hsl(333, 80%, 67%);
+}
+#descTres {
+    margin: 30px;
+    color: hsl(300, 24%, 96%);
+}
+}
+
+@media only screen and (max-device-width: 890px) {
+    
+}
